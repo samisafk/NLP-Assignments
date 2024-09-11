@@ -1,0 +1,28 @@
+1) Use the same dataset from Assignment 1. Make sure to use 80 % of entire data as training set. If still too large make sure to divide dataset into chunks. Train model on first chunk, then take that model as pretrained for next successive chunk and repeat this process till end of chunks.
+
+2) DO FOLLOWING Preprocessing STEPS using NLTK or SpaCy:
+    a) Remove empty rows. Remove duplicates.
+    b) Tokenization, Lemmatization
+    b) Data Cleansing: Remove stopwords, remove symbols,remove emojis, remove URLS, remove http tags, remove excess whitespaces.
+    c) Lower the strings, replace abbreviations, fix contractions.
+
+3) Use following as range of values for input arguments:
+    For 1st set of results use:
+    a) batch_size = 4
+    b) max_sequence_length = maximum length of sentence in dataset
+    c) embedding_dim = 10
+    d) max_words = 10000
+    e) lstm_units = 8
+     
+    For 2st set of results use:
+    a) batch_size = 8
+    b) max_sequence_length = maximum length of sentence in dataset
+    c) embedding_dim = 30
+    d) max_words = 25000
+    e) lstm_units = 16
+
+4) Use following LSTM:
+    a) Single Layer of LSTM for 1st set of results
+    b) Two Layers of LSTM for 2nd set of results
+
+5) Compare the results for each set using Classification Report and Confusion Matrix with Heatmap Figure. Also compare results of Assignment 2 with results of Assignment 1. You are free to tweak range of values of input arguments to get best possible result.
