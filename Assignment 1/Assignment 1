@@ -1,0 +1,21 @@
+1) Download the following dataset:
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+2) DO FOLLOWING Preprocessing STEPS using NLTK or SpaCy:
+    a) Tokenization, Lemmatization
+    b) Data Cleansing: Remove stopwords, remove symbols, remove URLS.
+
+3) Vectorize Data Using:
+    a) CountVectorizer
+    b) TFIDFVectorizer
+
+
+
+
+
+4) Use following ML algorithms:
+    a) Logistic Regression with CountVectorizer, TFIDFVectorizer
+    b) SVC with CountVectorizer, TFIDFVectorizer
+    c) RF with CountVectorizer, TFIDFVectorizer
+
+5) Compare the results for each algorithm using Classification Report and Confusion Matrix with Heatmap Figure
+Assignment will be assessed as per Rubric and results will be compared with others. Make sure you get the best results.
